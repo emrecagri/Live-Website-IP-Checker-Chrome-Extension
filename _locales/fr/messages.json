@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "Vérificateur d’IP du site en direct - Loruv"
+  },
+  "appDesc": {
+    "message": "Affiche instantanément l’adresse IP réelle du serveur du site actuel, directement sur la page."
+  }
+}

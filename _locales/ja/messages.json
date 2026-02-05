@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "リアルタイムWebサイトIPチェッカー - Loruv"
+  },
+  "appDesc": {
+    "message": "現在のWebサイトの実際のサーバーIPアドレスをリアルタイムでページ上に表示します。"
+  }
+}

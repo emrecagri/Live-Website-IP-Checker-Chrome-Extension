@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "实时网站 IP 检测器 - Loruv"
+  },
+  "appDesc": {
+    "message": "直接在页面上即时显示当前网站的真实服务器 IP 地址。"
+  }
+}

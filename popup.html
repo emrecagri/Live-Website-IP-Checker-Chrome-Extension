@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="main-wrapper_Lx92">
+    <header class="header_Lx92">
+      <div class="brand_Lx92">
+        <div class="logo-icon_Lx92"></div>
+        <h1 id="lblHeader_Lx92">Live Website IP Checker - Loruv</h1>
+      </div>
+      <label class="switch_Lx92">
+        <input type="checkbox" id="toggleActive_Lx92">
+        <span class="slider_Lx92"></span>
+      </label>
+    </header>
+
+    <div class="content-area_Lx92">
+      
+      <div class="control-group_Lx92">
+        <label class="group-label_Lx92" id="lblLanguage_Lx92">Interface Language</label>
+        <div class="select-wrapper_Lx92">
+          <select id="languageSelect_Lx92" class="styled-select_Lx92">
+            <option value="en">English</option>
+            <option value="tr">Türkçe</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+            <option value="it">Italiano</option>
+            <option value="ru">Русский</option>
+            <option value="ja">日本語</option>
+            <option value="zh_CN">中文 (简体)</option>
+            <option value="ko">한국어</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="control-row_Lx92">
+        <div class="half-col_Lx92">
+          <label class="sub-label_Lx92" id="lblBgColor_Lx92">Background</label>
+          <div class="color-input-wrapper_Lx92">
+            <input type="color" id="bgColor_Lx92" value="#1e1e2e">
+            <span class="color-value_Lx92" id="bgHex_Lx92">#1e1e2e</span>
+          </div>
+        </div>
+        <div class="half-col_Lx92">
+          <label class="sub-label_Lx92" id="lblTextColor_Lx92">Text</label>
+          <div class="color-input-wrapper_Lx92">
+            <input type="color" id="textColor_Lx92" value="#ffffff">
+            <span class="color-value_Lx92" id="textHex_Lx92">#ffffff</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-group_Lx92">
+        <div class="flex-between_Lx92">
+          <label class="group-label_Lx92" id="lblSize_Lx92">Font Size</label>
+          <span class="range-val_Lx92" id="sizeValue_Lx92">13px</span>
+        </div>
+        <input type="range" id="fontSize_Lx92" class="styled-range_Lx92" min="10" max="20" value="13">
+      </div>
+
+      <div class="control-group_Lx92">
+        <label class="group-label_Lx92" id="lblCorners_Lx92">Corner Style</label>
+        <div class="toggle-options_Lx92">
+          <input type="radio" name="corner" id="radSquare_Lx92" value="square">
+          <label for="radSquare_Lx92" id="optSquare_Lx92">Square</label>
+          
+          <input type="radio" name="corner" id="radOval_Lx92" value="oval">
+          <label for="radOval_Lx92" id="optOval_Lx92">Oval</label>
+        </div>
+      </div>
+
+      <div class="preview-container_Lx92">
+        <label class="sub-label_Lx92" id="lblPreview_Lx92">Live Preview</label>
+        <div class="preview-canvas_Lx92">
+          <div id="previewBox_Lx92">127.0.0.1</div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer_Lx92">
+      <a href="https://loruv.com" target="_blank">Developed by loruv.com</a>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

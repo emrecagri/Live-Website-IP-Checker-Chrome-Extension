@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "Comprobador de IP del sitio en vivo - Loruv"
+  },
+  "appDesc": {
+    "message": "Visualiza al instante la dirección IP real del servidor del sitio web actual directamente en la página."
+  }
+}
