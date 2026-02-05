@@ -1,14 +1,18 @@
 # [TR] Canlı Web Sitesi IP Kontrolü (Web Eklentisi) | [EN] Live Website IP Checker (Web Extension)
 
-[Türkçe](#türkçe) | [English](#english)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/pnfihdhamkpjninnghmnemnimfbhklhp)
+![Version](https://img.shields.io/badge/version-8.4.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-GNU-green?style=for-the-badge)
+
+[🇹🇷 Türkçe](#türkçe) | [🇬🇧 English](#english) | [🇹🇷 Ekran Görüntüleri](#ekran-görüntüleri) | [🇬🇧 Screenshots](#screenshots)
 
 ---
 
 ## Türkçe
 
-### 📝 Açıklama
-
 Harici DNS sorgusu yapmadan, tarayıcı API'si ile bağlandığınız gerçek sunucu IP'sini anlık gösteren hafif bir araç. DNS yayılımı ve CDN testleri için ideal.
+
+Google Web Store: [https://go.emrecb.com/canli-web-sitesi-ip-kontrolu-web-store](https://go.emrecb.com/canli-web-sitesi-ip-kontrolu-web-store)
 
 ### 🚀 Öne Çıkan Özellikler
 
@@ -28,9 +32,9 @@ Harici DNS sorgusu yapmadan, tarayıcı API'si ile bağlandığınız gerçek su
 
 ## English
 
-### 📝 Description
-
 Lightweight tool showing real server IP via browser API, avoiding external DNS lookups. Perfect for DNS propagation and CDN testing.
+
+Google Web Store: [https://go.emrecb.com/live-website-ip-checker-web-store](https://go.emrecb.com/live-website-ip-checker-web-store)
 
 ### 🚀 Key Features
 
@@ -45,3 +49,17 @@ Lightweight tool showing real server IP via browser API, avoiding external DNS l
 * **Manifest:** V3
 * **Network Monitoring:** Real-time IP capture using `chrome.webRequest.onResponseStarted` API.
 * **Data Management:** User preferences stored via `chrome.storage.local`.
+
+---
+
+## Ekran Görüntüleri
+
+![image](tr/1.png)
+![image](tr/2.png)
+
+---
+
+## Screenshots
+
+![image](en/1.png)
+![image](en/2.png)
