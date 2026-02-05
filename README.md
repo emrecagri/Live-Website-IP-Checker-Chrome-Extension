@@ -1,4 +1,4 @@
-# [TR] Canlı Web Sitesi IP Kontrolü | [EN] Live Website IP Checker
+# [TR] Canlı Web Sitesi IP Kontrolü (Web Eklentisi) | [EN] Live Website IP Checker (Web Extension)
 
 [Türkçe](#türkçe) | [English](#english)
 
